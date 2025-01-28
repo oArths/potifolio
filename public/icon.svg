@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1128" height="1128"><svg width="1128" height="1128" viewBox="0 0 1128 1128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="564" cy="564" r="564" fill="#020202"></circle>
+<path d="M413.372 777.998L569.925 515.599L714.663 266V777.998H413.372Z" fill="#E7E7E7"></path>
+<path d="M413.405 516.881L716.174 652.56L1004.17 778H413.405V516.881Z" fill="#E7E7E7"></path>
+<path d="M714.767 777.998L411.999 642.319L124 516.879H714.767V777.998Z" fill="#E7E7E7"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
