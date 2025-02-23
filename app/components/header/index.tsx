@@ -2,10 +2,10 @@ import * as I from "lucide-react";
 import Image from "next/image";
 const Header = () => {
   return (
-    <header className="text-50 flex flex-row items-center justify-start      p-4 border-2 h-20 border-950 border-b-400 backdrop-blur-sm border-b-[0.5px]">
+    <header className="text-50 flex flex-row items-center justify-start px-9 border-2  w-full h-16 border-950 border-b-400 backdrop-blur-sm border-b-[0.5px]">
       <Image src="./images/favicon.svg" alt="Logo" width={50} height={50} />
-      <nav className="text-50 flex  w-auto  flex-row items-center justify-between p-4">
-        <ul className="flex items-center gap-5 justify-between">
+      <nav className="text-50 flex  w-auto mx-auto flex-row items-center justify-between ">
+        <ul className="flex items-center max-md:hidden gap-28 justify-between">
           <li>
             <a className="font-extralight text-base" href="#inicio">
               inicio
@@ -17,7 +17,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="font-extralight text-base" href="#Projetos">
+            <a
+              className="font-extralight text-base"
+              href="#Projetos"
+            >
               Projetos
             </a>
           </li>
@@ -26,10 +29,15 @@ const Header = () => {
               Conatato
             </a>
           </li>
-        </ul>  
+        </ul>
       </nav>
-      <div className=" flex md:hidden">
-        <I.Menu size={32} color="#ffff" />
+      <div className=" ">
+        <button className="hidden md:flex font-extralight text-base text-50">
+          PTB
+        </button>
+        <button className=" flex md:hidden font-extralight text-base text-50">
+          <I.Menu size={32} color="#ffff" />
+        </button>
       </div>
     </header>
   );

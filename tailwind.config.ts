@@ -11,6 +11,15 @@ export default {
       fontFamily: {
         Draper: ["Draper", "sans-serif"],
       },
+      textStrokeWidth: {
+        0.5: "0.5px",
+        1: "1px",
+        2: "2px",
+      },
+      textStrokeColor: {
+        black: "#000",
+        white: "#fff",
+      },
     },
     colors: {
       "50": "rgb(246, 246, 246)",
@@ -26,9 +35,9 @@ export default {
       "925": "rgb(20, 19, 19)",
       "945": "rgb(8, 8, 8)",
       "950": "rgb(2, 2, 2)",
-      "red100": "rgb(210, 27, 27)",
-      "blue100": "rgb(50, 39, 201)",
-      "white100": "rgb(168, 182, 203)",
+      red100: "rgb(210, 27, 27)",
+      blue100: "rgb(50, 39, 201)",
+      white100: "rgb(168, 182, 203)",
     },
     plugins: [],
   },

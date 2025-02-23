@@ -23,3 +23,21 @@ img {
   -webkit-user-select: none;
   -webkit-user-drag: none;
 }
+.text-stroke-05 {
+  -webkit-text-stroke-width: 0.5px;
+}
+.text-stroke-1 {
+  -webkit-text-stroke-width: 1px;
+}
+
+.text-stroke-2 {
+  -webkit-text-stroke-width: 2px;
+}
+
+.text-stroke-black {
+  -webkit-text-stroke-color: black;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke-color: white;
+}
