@@ -13,6 +13,7 @@ export default {
         morph: "morph 5s ease-in-out infinite",
         morphSoft: "morphSoft 5s ease-in-out infinite",
         morphExtreme: "morphExtreme 5s ease-in-out infinite",
+        morphBlue: "morphBlue 5s ease-in-out infinite",
       },
       keyframes: {
         morph: {
@@ -43,6 +44,38 @@ export default {
           "100%": {
             width: "25vw",
             height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(25deg)",
+          },
+        },
+        morphBlue: {
+          "0%": {
+            width: "75vw",
+            height: "75vw",
+            borderRadius: "50%",
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            width: "75vw",
+            height: "65vw",
+            borderRadius: "60% 40% 60% 40%",
+            transform: "rotate(5deg)",
+          },
+          "50%": {
+            width: "65vw",
+            height: "80vw",
+            borderRadius: "40% 60% 40% 60%",
+            transform: "rotate(15deg)",
+          },
+          "75%": {
+            width: "78vw",
+            height: "74vw",
+            borderRadius: "40% 60% 40% 60%",
+            transform: "rotate(20deg)",
+          },
+          "100%": {
+            width: "75vw",
+            height: "75vw",
             borderRadius: "50%",
             transform: "rotate(25deg)",
           },
