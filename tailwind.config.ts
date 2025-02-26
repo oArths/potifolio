@@ -6,12 +6,13 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       animation: {
         morph: "morph 5s ease-in-out infinite",
-        morphSoft: "morphSoft 10s ease-in-out infinite",
-        morphExtreme: "morphExtreme 10s ease-in-out infinite",
+        morphSoft: "morphSoft 5s ease-in-out infinite",
+        morphExtreme: "morphExtreme 5s ease-in-out infinite",
       },
       keyframes: {
         morph: {
@@ -60,13 +61,13 @@ export default {
             transform: "rotate(15deg)",
           },
           "50%": {
-            width: "23vw",
-            height: "27vw",
+            width: "27vw",
+            height: "23vw",
             borderRadius: "45% 55% 45% 55%",
             transform: "rotate(30deg)",
           },
           "75%": {
-            width: "27vw",
+            width: "25vw",
             height: "23vw",
             borderRadius: "50% 50% 40% 60%",
             transform: "rotate(15deg)",
@@ -87,19 +88,19 @@ export default {
           },
           "25%": {
             width: "30vw",
-            height: "25vw",
+            height: "20vw",
             borderRadius: "70% 50% 70% 50%",
             transform: "rotate(90deg)",
           },
           "50%": {
-            width: "25vw",
+            width: "27vw",
             height: "30vw",
             borderRadius: "50% 70% 50% 70%",
             transform: "rotate(180deg)",
           },
           "75%": {
             width: "30vw",
-            height: "25vw",
+            height: "28vw",
             borderRadius: "60% 40% 60% 40%",
             transform: "rotate(270deg)",
           },
@@ -112,7 +113,8 @@ export default {
         },
       },
       fontFamily: {
-        Draper: ["Draper", "sans-serif"],
+        sans: "var(--kanit), sans-serif",
+        Draper: "var(--font-draper), sans-serif",
       },
       textStrokeWidth: {
         0.5: "0.5px",
@@ -131,10 +133,12 @@ export default {
       "300": "rgb(176, 176, 176)",
       "400": "rgb(136, 136, 136)",
       "500": "rgb(109, 109, 109)",
+      "525": "rgb(102, 102, 102)",
       "600": "rgb(93, 93, 93)",
       "700": "rgb(79, 79, 79)",
       "800": "rgb(69, 69, 69)",
       "900": "rgb(61, 61, 61)",
+      "910": "rgb(30, 30, 30)",
       "925": "rgb(20, 19, 19)",
       "945": "rgb(8, 8, 8)",
       "950": "rgb(2, 2, 2)",
