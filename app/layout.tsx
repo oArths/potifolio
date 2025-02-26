@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
+import localFont from "next/font/local";
 
 const KanitFont = Kanit({
   weight: ["200", "300", "400", "500", "700", "800", "900"],
   variable: "--kanit",
   subsets: ["latin"],
   display: "swap",
-});  
+});
+const DraperFont = localFont({
+  src: "../public/font/Draper.otf",
+  display: "swap",
+  variable: "--font-draper",
+});
 
 export const metadata: Metadata = {
   title: "Protifolio",
@@ -21,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${KanitFont.variable}  antialiased`}>{children}</body>
+      <body
+        className={`${KanitFont.variable} ${DraperFont.variable}  antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
