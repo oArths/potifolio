@@ -8,6 +8,109 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        morph: "morph 5s ease-in-out infinite",
+        morphSoft: "morphSoft 10s ease-in-out infinite",
+        morphExtreme: "morphExtreme 10s ease-in-out infinite",
+      },
+      keyframes: {
+        morph: {
+          "0%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            width: "25vw",
+            height: "20vw",
+            borderRadius: "60% 40% 60% 40%",
+            transform: "rotate(5deg)",
+          },
+          "50%": {
+            width: "20vw",
+            height: "30vw",
+            borderRadius: "40% 60% 40% 60%",
+            transform: "rotate(15deg)",
+          },
+          "75%": {
+            width: "28vw",
+            height: "24vw",
+            borderRadius: "40% 60% 40% 60%",
+            transform: "rotate(20deg)",
+          },
+          "100%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(25deg)",
+          },
+        },
+        morphSoft: {
+          "0%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            width: "27vw",
+            height: "23vw",
+            borderRadius: "55% 45% 55% 45%",
+            transform: "rotate(15deg)",
+          },
+          "50%": {
+            width: "23vw",
+            height: "27vw",
+            borderRadius: "45% 55% 45% 55%",
+            transform: "rotate(30deg)",
+          },
+          "75%": {
+            width: "27vw",
+            height: "23vw",
+            borderRadius: "50% 50% 40% 60%",
+            transform: "rotate(15deg)",
+          },
+          "100%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(0deg)",
+          },
+        },
+        morphExtreme: {
+          "0%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(0deg)",
+          },
+          "25%": {
+            width: "30vw",
+            height: "25vw",
+            borderRadius: "70% 50% 70% 50%",
+            transform: "rotate(90deg)",
+          },
+          "50%": {
+            width: "25vw",
+            height: "30vw",
+            borderRadius: "50% 70% 50% 70%",
+            transform: "rotate(180deg)",
+          },
+          "75%": {
+            width: "30vw",
+            height: "25vw",
+            borderRadius: "60% 40% 60% 40%",
+            transform: "rotate(270deg)",
+          },
+          "100%": {
+            width: "25vw",
+            height: "25vw",
+            borderRadius: "50%",
+            transform: "rotate(360deg)",
+          },
+        },
+      },
       fontFamily: {
         Draper: ["Draper", "sans-serif"],
       },
