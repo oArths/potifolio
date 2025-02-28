@@ -1,5 +1,6 @@
 import Header from "./components/header";
 import Home from "./templates/home";
+import Projetos from "./templates/projetos";
 import Trajetoria from "./templates/trajetoria";
 
 export default function Main() {
@@ -8,6 +9,7 @@ export default function Main() {
       <Header />
       <Home />
       <Trajetoria />
+      <Projetos />
     </div>
   );
 }
