@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import Header from "./templates/header";
 import Home from "./templates/home";
 import Projetos from "./templates/projetos";
 import Trajetoria from "./templates/trajetoria";
