@@ -47,3 +47,6 @@ img {
 .text-stroke-white {
   -webkit-text-stroke-color: white;
 }
+#header {
+  transition: all 0.3s ease;
+}
