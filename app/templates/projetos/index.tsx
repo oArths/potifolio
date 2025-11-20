@@ -11,7 +11,7 @@ export default function Projetos() {
           <div className="bg-50 blur-3xl z-10 absolute opacity-40 top-48 right-[75%] p-0  w-[75vw] h-[75vw] animate-morphBlue aspect-square rounded-full" />
 
           <div className="relative z-20">
-            <div className="h-[50vh] w-full rounded-md overflow-hidden relative">
+            <div className=" h-[50vh] w-full rounded-md overflow-hidden relative">
               <h3 className=" absolute top-14 left-14 font-medium text-4xl brightness-100 opacity-100">
                 Tabla Sync
               </h3>
@@ -21,7 +21,7 @@ export default function Projetos() {
                 className="opacity-60 hover:opacity-100 transition duration-300"
               />
             </div>
-            <div className="flex flex-col max-h-[45dvh] items-start justify-center mt-5 h-auto w-full  rounded-md bg-950/40  backdrop-blur-md px-8 py-9  ">
+            <div className="flex flex-col  items-start justify-center mt-5 h-auto w-full  rounded-md bg-950/40  backdrop-blur-md px-8 py-4 md:py-9  ">
               <div
                 className="rounded-md"
                 style={{
@@ -40,19 +40,19 @@ export default function Projetos() {
               />
               <nav className="flex items-center justify-between w-full">
                 <div className="flex flex-col items-start justify-center">
-                  <h3 className="text-lg ">Desenvolvedor Full- Stack</h3>
+                  <h3 className="text-base md:text-lg ">Desenvolvedor Full- Stack</h3>
                   <div className="flex flex-row items-start gap-16 justify-center">
-                    <p className="text-lg font-extralight text-200">6+ meses</p>
-                    <p className="text-lg font-extralight text-200">
+                    <p className="text-base md:text-lg font-extralight text-200">6+ meses</p>
+                    <p className=" text-base md:text-lg font-extralight text-200">
                       Finalizado
                     </p>
                   </div>
                 </div>
                 <div>
-                  <button>Explorar Projeto</button>
+                  <button className="text-base md:text-lg border border-50 rounded-md ">Explorar Projeto</button>
                 </div>
               </nav>
-              <span className=" text-justify mt-10 text-100 text-base">
+              <span className=" text-justify mt-5 md:mt-10 text-100 text-sm md:text-base">
                 Fui responsável pelo desenvolvimento da MultiPage da Suporte de
                 Domingo, um projeto voltado para a divulgação da empresa com
                 forte cunho social. Durante esse período, também iniciei
@@ -66,12 +66,13 @@ export default function Projetos() {
                 projetos white label, desenvolvendo sistemas de controle de NF-e
                 e e-commerce para restaurantes.
               </span>
-              <div className="w-full flex  items-center justify-center mt-10 ">
-                <ul className=" flex flex-row items-start justify-start gap-4 pt-8 w-full border-t-[0.5px]  border-50/50">
-                  <li>tec</li>
-                  <li>tec</li>
-                  <li>tec</li>
-                  <li>tec</li>
+              <div className="w-full flex  items-center justify-center mt-5 md:mt-10 ">
+                <ul className=" flex flex-row items-start justify-start gap-4 pt-4 md:pt-8 w-full border-t-[0.5px]  border-50/50">
+                  <li className="text-base md:text-lg">tec</li>
+                  <li className="text-base md:text-lg">tec</li>
+                  <li className="text-base md:text-lg">tec</li>
+                  <li className="text-base md:text-lg">tec</li>
+                  
                 </ul>
               </div>
             </div>
