@@ -1,0 +1,11 @@
+    # Ignore these folders
+    node_modules
+    .next
+    build
+    dist
+
+    # Ignore these files
+    package-lock.json
+    yarn.lock
+    .env
+    .env.local

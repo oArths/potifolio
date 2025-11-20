@@ -1,11 +1,11 @@
-import Header from "./templates/header";
-import Home from "./templates/home";
-import Projetos from "./templates/projetos";
-import Trajetoria from "./templates/trajetoria";
+import Header from './templates/header';
+import Home from './templates/home';
+import Projetos from './templates/projetos';
+import Trajetoria from './templates/trajetoria';
 
 export default function Main() {
   return (
-    <div className="h-full w-full  flex flex-col  items-center  font-Draper bg-950">
+    <div className="flex h-full w-full flex-col items-center bg-950 font-Draper">
       <Header />
       <Home />
       <Trajetoria />

@@ -8,7 +8,7 @@
   box-sizing: border-box;
   outline: none;
   scroll-behavior: smooth;
-  font-family: var(--kanit), sans-serif
+  font-family: var(--kanit), sans-serif;
 }
 
 @font-face {
@@ -18,10 +18,11 @@
   font-weight: normal;
   font-style: normal;
 }
-h2{
+h2 {
   color: rgb(246, 246, 246);
 }
-p,span{
+p,
+span {
   color: rgb(209, 209, 209);
 }
 img {

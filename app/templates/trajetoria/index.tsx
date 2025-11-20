@@ -1,24 +1,24 @@
 export default function Trajetoria() {
   return (
-    <section className="flex flex-col items-center justify-center w-full h-full min-h-screen overflow-hidden ">
-      <div className=" flex flex-col items-start justify-start w-[90%]  h-full">
-        <h2 className=" font-Draper text-50 text-4xl tracking-[1.57rem] ">
+    <section className="flex h-full min-h-screen w-full flex-col items-center justify-center overflow-hidden">
+      <div className="flex h-full w-[90%] flex-col items-start justify-start">
+        <h2 className="font-Draper text-4xl tracking-[1.57rem] text-50">
           Trajetoria
         </h2>
-        <div className=" relative right-0 flex flex-row w-full h-full mt-24 ">
-          <div className="relative left-2  flex flex-col justify-between items-center">
-            <p className=" w-2 h-2 rounded-full bg-50"></p>
-            <span className="w-[2px] min-h-[calc(100%-16px)] bg-50"></span>
-            <p className=" w-2 h-2 rounded-full bg-50"></p>
+        <div className="relative right-0 mt-24 flex h-full w-full flex-row">
+          <div className="relative left-2 flex flex-col items-center justify-between">
+            <p className="h-2 w-2 rounded-full bg-50"></p>
+            <span className="min-h-[calc(100%-16px)] w-[2px] bg-50"></span>
+            <p className="h-2 w-2 rounded-full bg-50"></p>
           </div>
           <div className="flex flex-col items-start gap-[130px]">
-            <div className=" flex flex-row items-center justify-center gap-11 ">
+            <div className="flex flex-row items-center justify-center gap-11">
               <div className="flex flex-col items-start justify-center">
-                <h3 className=" ml-6 font-extralight text-xl text-200 tracking-widest">
+                <h3 className="ml-6 text-xl font-extralight tracking-widest text-200">
                   12 Jun 2024
                 </h3>
                 <span className="flex flex-row items-center justify-center">
-                  <p className=" w-2 h-2 rounded-full bg-50"></p>
+                  <p className="h-2 w-2 rounded-full bg-50"></p>
                   <svg width="100%" height="10" viewBox="0 0 200 10">
                     <line
                       x1="0"
@@ -30,40 +30,40 @@ export default function Trajetoria() {
                       strokeDasharray="12, 12"
                     />
                   </svg>
-                  <p className=" w-2 h-2 rotate-45 bg-50"></p>
+                  <p className="h-2 w-2 rotate-45 bg-50"></p>
                 </span>
               </div>
 
-              <div className="flex flex-col relative rounded-3xl bg-950/40 w-[43vw] backdrop-blur-md  h-auto px-14 py-12 ">
+              <div className="relative flex h-auto w-[43vw] flex-col rounded-3xl bg-950/40 px-14 py-12 backdrop-blur-md">
                 <div
                   className="rounded-3xl"
                   style={{
                     content: '""',
-                    position: "absolute",
-                    inset: "0",
-                    padding: "1.2px",
+                    position: 'absolute',
+                    inset: '0',
+                    padding: '1.2px',
                     background:
-                      "linear-gradient(45deg, rgb(30, 30, 30), rgb(102, 102, 102))",
+                      'linear-gradient(45deg, rgb(30, 30, 30), rgb(102, 102, 102))',
                     WebkitMask:
-                      "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                    WebkitMaskComposite: "xor",
-                    maskComposite: "exclude",
-                    pointerEvents: "none",
+                      'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                    WebkitMaskComposite: 'xor',
+                    maskComposite: 'exclude',
+                    pointerEvents: 'none',
                   }}
                 />
-                <h2 className="font-light text-2xl mb-6">
+                <h2 className="mb-6 text-2xl font-light">
                   Senai Suíço-Brasileira
                 </h2>
                 <div>
-                  <h2 className="font-normal text-2xl">
+                  <h2 className="text-2xl font-normal">
                     Tecnologo em Sesenvolvimento de Sistema
                   </h2>
-                  <span className="flex fex-row gap-11 items-start justify-start mb-9 ">
-                    <p className="font-extralight text-xl">+1.5 anos</p>
-                    <p className="font-extralight text-xl">Finalizado</p>
+                  <span className="fex-row mb-9 flex items-start justify-start gap-11">
+                    <p className="text-xl font-extralight">+1.5 anos</p>
+                    <p className="text-xl font-extralight">Finalizado</p>
                   </span>
                 </div>
-                <span className="font-normal text-lg text-100 text-justify">
+                <span className="text-justify text-lg font-normal text-100">
                   Durante o curso de ADS, desenvolvi uma base sólida em
                   programação e adquiri experiências práticas, como o
                   levantamento de requisitos com clientes, a liderança de uma
@@ -75,13 +75,13 @@ export default function Trajetoria() {
                 </span>
               </div>
             </div>
-            <div className=" flex flex-row items-center justify-center gap-11 z-10 ">
+            <div className="z-10 flex flex-row items-center justify-center gap-11">
               <div className="flex flex-col items-start justify-center">
-                <h3 className=" ml-6 font-extralight text-xl text-200 tracking-widest">
+                <h3 className="ml-6 text-xl font-extralight tracking-widest text-200">
                   12 Jun 2024
                 </h3>
                 <span className="flex flex-row items-center justify-center">
-                  <p className=" w-2 h-2 rounded-full bg-50"></p>
+                  <p className="h-2 w-2 rounded-full bg-50"></p>
                   <svg width="100%" height="10" viewBox="0 0 600 10">
                     <line
                       x1="0"
@@ -93,41 +93,41 @@ export default function Trajetoria() {
                       strokeDasharray="12, 12"
                     />
                   </svg>
-                  <p className=" w-2 h-2 rotate-45 bg-50"></p>
+                  <p className="h-2 w-2 rotate-45 bg-50"></p>
                 </span>
               </div>
 
-              <div className="flex flex-col relative rounded-3xl bg-950/40 w-[43vw] backdrop-blur-[100px]  h-auto px-14 py-12 ">
+              <div className="relative flex h-auto w-[43vw] flex-col rounded-3xl bg-950/40 px-14 py-12 backdrop-blur-[100px]">
                 <div
-                  className="absolute inset-0 rounded-3xl pointer-events-none"
+                  className="pointer-events-none absolute inset-0 rounded-3xl"
                   style={{
                     content: '""',
-                    position: "absolute",
-                    inset: "0",
-                    padding: "1.2px",
+                    position: 'absolute',
+                    inset: '0',
+                    padding: '1.2px',
                     background:
-                      "linear-gradient(90deg,rgb(102, 102, 102), rgb(30, 30, 30) )",
+                      'linear-gradient(90deg,rgb(102, 102, 102), rgb(30, 30, 30) )',
                     WebkitMask:
-                      "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                    WebkitMaskComposite: "xor",
-                    pointerEvents: "none",
+                      'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                    WebkitMaskComposite: 'xor',
+                    pointerEvents: 'none',
                   }}
                 />
-                <div className="absolute inset-0   rounded-3xl" />
-                <div className="relative ">
-                  <h2 className="font-light text-2xl mb-6">
+                <div className="absolute inset-0 rounded-3xl" />
+                <div className="relative">
+                  <h2 className="mb-6 text-2xl font-light">
                     Senai Suíço-Brasileiraasa
                   </h2>
                   <div>
-                    <h2 className="font-normal text-2xl">
+                    <h2 className="text-2xl font-normal">
                       Tecnologo em Sesenvolvimento de Sistema
                     </h2>
-                    <span className="flex fex-row gap-11 items-start justify-start mb-9 ">
-                      <p className="font-extralight text-xl">+1.5 anos</p>
-                      <p className="font-extralight text-xl">Finalizado</p>
+                    <span className="fex-row mb-9 flex items-start justify-start gap-11">
+                      <p className="text-xl font-extralight">+1.5 anos</p>
+                      <p className="text-xl font-extralight">Finalizado</p>
                     </span>
                   </div>
-                  <span className="font-normal text-lg  text-100 text-justify">
+                  <span className="text-justify text-lg font-normal text-100">
                     Durante o curso de ADS, desenvolvi uma base sólida em
                     programação e adquiri experiências práticas, como o
                     levantamento de requisitos com clientes, a liderança de uma
@@ -140,15 +140,15 @@ export default function Trajetoria() {
                 </div>
               </div>
             </div>
-            <div className="bg-blue100 z-[1]  blur-3xl absolute opacity-40 top-48 left-[75%] p-0  w-[75vw] h-[75vw] animate-morphBlue aspect-square rounded-full" />
+            <div className="absolute left-[75%] top-48 z-[1] aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-blue100 p-0 opacity-40 blur-3xl" />
 
-            <div className=" flex flex-row items-center justify-center gap-11 ">
+            <div className="flex flex-row items-center justify-center gap-11">
               <div className="flex flex-col items-start justify-center">
-                <h3 className=" ml-6 font-extralight text-xl text-200 tracking-widest">
+                <h3 className="ml-6 text-xl font-extralight tracking-widest text-200">
                   12 Jun 2024
                 </h3>
                 <span className="flex flex-row items-center justify-center">
-                  <p className=" w-2 h-2 rounded-full bg-50"></p>
+                  <p className="h-2 w-2 rounded-full bg-50"></p>
                   <svg width="100%" height="10" viewBox="0 0 200 10">
                     <line
                       x1="0"
@@ -160,40 +160,40 @@ export default function Trajetoria() {
                       strokeDasharray="12, 12"
                     />
                   </svg>
-                  <p className=" w-2 h-2 rotate-45 bg-50"></p>
+                  <p className="h-2 w-2 rotate-45 bg-50"></p>
                 </span>
               </div>
 
-              <div className="flex flex-col relative rounded-3xl bg-950/40 w-[43vw] backdrop-blur-md  h-auto px-14 py-12 ">
+              <div className="relative flex h-auto w-[43vw] flex-col rounded-3xl bg-950/40 px-14 py-12 backdrop-blur-md">
                 <div
                   className="rounded-3xl"
                   style={{
                     content: '""',
-                    position: "absolute",
-                    inset: "0",
-                    padding: "1.2px",
+                    position: 'absolute',
+                    inset: '0',
+                    padding: '1.2px',
                     background:
-                      "linear-gradient(90deg, rgb(30, 30, 30), rgb(102, 102, 102))",
+                      'linear-gradient(90deg, rgb(30, 30, 30), rgb(102, 102, 102))',
                     WebkitMask:
-                      "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                    WebkitMaskComposite: "xor",
-                    maskComposite: "exclude",
-                    pointerEvents: "none",
+                      'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                    WebkitMaskComposite: 'xor',
+                    maskComposite: 'exclude',
+                    pointerEvents: 'none',
                   }}
                 />
-                <h2 className="font-light text-2xl mb-6">
+                <h2 className="mb-6 text-2xl font-light">
                   Senai Suíço-Brasileira
                 </h2>
                 <div>
-                  <h2 className="font-normal text-2xl">
+                  <h2 className="text-2xl font-normal">
                     Tecnologo em Sesenvolvimento de Sistema
                   </h2>
-                  <span className="flex fex-row gap-11 items-start justify-start mb-9 ">
-                    <p className="font-extralight text-xl">+1.5 anos</p>
-                    <p className="font-extralight text-xl">Finalizado</p>
+                  <span className="fex-row mb-9 flex items-start justify-start gap-11">
+                    <p className="text-xl font-extralight">+1.5 anos</p>
+                    <p className="text-xl font-extralight">Finalizado</p>
                   </span>
                 </div>
-                <span className="font-normal text-lg text-100 text-justify">
+                <span className="text-justify text-lg font-normal text-100">
                   Durante o curso de ADS, desenvolvi uma base sólida em
                   programação e adquiri experiências práticas, como o
                   levantamento de requisitos com clientes, a liderança de uma

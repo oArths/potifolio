@@ -1,58 +1,64 @@
-import Image from "next/image";
-import { ProjetosSDD } from "@/public/images";
+import Image from 'next/image';
+import { ProjetosSDD } from '@/public/images';
 export default function Projetos() {
   return (
-    <section className="flex flex-col mt-[30dvh] items-center justify-center w-full h-full min-h-screen overflow-hidden ">
-      <div className=" flex flex-col items-start justify-start w-[90%]  h-full relative">
-        <h2 className=" font-Draper text-50 text-4xl tracking-[1.57rem] ">
+    <section className="mt-[30dvh] flex h-full min-h-screen w-full flex-col items-center justify-center overflow-hidden">
+      <div className="relative flex h-full w-[90%] flex-col items-start justify-start">
+        <h2 className="font-Draper text-4xl tracking-[1.57rem] text-50">
           Projetos
         </h2>
-        <article className="flex flex-col  items-start justify-center mt-24 text-50 relative ">
-          <div className="bg-50 blur-3xl z-10 absolute opacity-40 top-48 right-[75%] p-0  w-[75vw] h-[75vw] animate-morphBlue aspect-square rounded-full" />
+        <article className="relative mt-24 flex flex-col items-start justify-center text-50">
+          <div className="absolute right-[75%] top-48 z-10 aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-50 p-0 opacity-40 blur-3xl" />
 
           <div className="relative z-20">
-            <div className=" h-[50vh] w-full rounded-md overflow-hidden relative">
-              <h3 className=" absolute top-14 left-14 font-medium text-4xl brightness-100 opacity-100">
+            <div className="relative h-[50vh] w-full overflow-hidden rounded-md">
+              <h3 className="absolute left-14 top-14 text-4xl font-medium opacity-100 brightness-100">
                 Tabla Sync
               </h3>
               <Image
                 src={ProjetosSDD}
                 alt="Imagem do projeto"
-                className="opacity-60 hover:opacity-100 transition duration-300"
+                className="opacity-60 transition duration-300 hover:opacity-100"
               />
             </div>
-            <div className="flex flex-col  items-start justify-center mt-5 h-auto w-full  rounded-md bg-950/40  backdrop-blur-md px-8 py-4 md:py-9  ">
+            <div className="mt-5 flex h-auto w-full flex-col items-start justify-center rounded-md bg-950/40 px-8 py-4 backdrop-blur-md md:py-9">
               <div
                 className="rounded-md"
                 style={{
                   content: '""',
-                  position: "absolute",
-                  inset: "0",
-                  padding: "1px",
+                  position: 'absolute',
+                  inset: '0',
+                  padding: '1px',
                   background:
-                    "linear-gradient(45deg, rgb(176, 176, 176,0.5), rgb(176, 176, 176,0.5))",
+                    'linear-gradient(45deg, rgb(176, 176, 176,0.5), rgb(176, 176, 176,0.5))',
                   WebkitMask:
-                    "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
-                  WebkitMaskComposite: "xor",
-                  maskComposite: "exclude",
-                  pointerEvents: "none",
+                    'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
+                  WebkitMaskComposite: 'xor',
+                  maskComposite: 'exclude',
+                  pointerEvents: 'none',
                 }}
               />
-              <nav className="flex items-center justify-between w-full">
+              <nav className="flex w-full items-center justify-between">
                 <div className="flex flex-col items-start justify-center">
-                  <h3 className="text-base md:text-lg ">Desenvolvedor Full- Stack</h3>
-                  <div className="flex flex-row items-start gap-16 justify-center">
-                    <p className="text-base md:text-lg font-extralight text-200">6+ meses</p>
-                    <p className=" text-base md:text-lg font-extralight text-200">
+                  <h3 className="text-base md:text-lg">
+                    Desenvolvedor Full- Stack
+                  </h3>
+                  <div className="flex flex-row items-start justify-center gap-16">
+                    <p className="text-base font-extralight text-200 md:text-lg">
+                      6+ meses
+                    </p>
+                    <p className="text-base font-extralight text-200 md:text-lg">
                       Finalizado
                     </p>
                   </div>
                 </div>
                 <div>
-                  <button className="text-base md:text-lg border border-50 rounded-md ">Explorar Projeto</button>
+                  <button className="rounded-md border border-50 text-base md:text-lg">
+                    Explorar Projeto
+                  </button>
                 </div>
               </nav>
-              <span className=" text-justify mt-5 md:mt-10 text-100 text-sm md:text-base">
+              <span className="mt-5 text-justify text-sm text-100 md:mt-10 md:text-base">
                 Fui responsável pelo desenvolvimento da MultiPage da Suporte de
                 Domingo, um projeto voltado para a divulgação da empresa com
                 forte cunho social. Durante esse período, também iniciei
@@ -66,13 +72,12 @@ export default function Projetos() {
                 projetos white label, desenvolvendo sistemas de controle de NF-e
                 e e-commerce para restaurantes.
               </span>
-              <div className="w-full flex  items-center justify-center mt-5 md:mt-10 ">
-                <ul className=" flex flex-row items-start justify-start gap-4 pt-4 md:pt-8 w-full border-t-[0.5px]  border-50/50">
+              <div className="mt-5 flex w-full items-center justify-center md:mt-10">
+                <ul className="flex w-full flex-row items-start justify-start gap-4 border-t-[0.5px] border-50/50 pt-4 md:pt-8">
                   <li className="text-base md:text-lg">tec</li>
                   <li className="text-base md:text-lg">tec</li>
                   <li className="text-base md:text-lg">tec</li>
                   <li className="text-base md:text-lg">tec</li>
-                  
                 </ul>
               </div>
             </div>
