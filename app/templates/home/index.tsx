@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <section className="flex min-h-screen w-full flex-col items-start justify-start overflow-hidden">
       <div className="relative min-h-[calc(100dvh+23vw)] w-full">
-        <div className="absolute -left-48 top-48 aspect-square h-[25vw] w-[25vw] animate-morph rounded-full bg-blue100 p-0 opacity-40 blur-3xl" />
-        <div className="absolute -right-1 -top-28 aspect-square h-[25vw] w-[25vw] animate-morphExtreme rounded-full bg-red100 opacity-40 blur-3xl" />
+        <div className="absolute -left-48 top-48 aspect-square h-[25vw] w-[25vw] animate-morph rounded-full bg-blue-1000 p-0 opacity-40 blur-3xl" />
+        <div className="absolute -right-1 -top-28 aspect-square h-[25vw] w-[25vw] animate-morphExtreme rounded-full bg-rose-200 opacity-40 blur-3xl" />
         <span className="relative top-[10vh] ml-32 mt-40 flex w-auto flex-col items-start justify-center">
           <h1 className="mb-6 select-none font-Draper text-7xl text-50">
             I'M Arthur

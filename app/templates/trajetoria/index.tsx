@@ -140,7 +140,7 @@ export default function Trajetoria() {
                 </div>
               </div>
             </div>
-            <div className="absolute left-[75%] top-48 z-[1] aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-blue100 p-0 opacity-40 blur-3xl" />
+            <div className="absolute left-[75%] top-48 z-[1] aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-blue-1000 p-0 opacity-40 blur-3xl" />
 
             <div className="flex flex-row items-center justify-center gap-11">
               <div className="flex flex-col items-start justify-center">

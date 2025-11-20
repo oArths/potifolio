@@ -53,7 +53,7 @@ export default function Projetos() {
                   </div>
                 </div>
                 <div>
-                  <button className="rounded-md border border-50 text-base md:text-lg">
+                  <button className="py-1 px-4 rounded-md border border-50 text-base md:text-lg">
                     Explorar Projeto
                   </button>
                 </div>
