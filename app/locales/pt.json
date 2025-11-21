@@ -2,5 +2,20 @@
   "header": {
     "home": "Inicio",
     "trajectory": "trajetoria"
+  },
+  "project": {
+    "h1": "projetos",
+    "or": "de",
+    "projects": {
+      "tablesync": {
+        "title": "Table Sync",
+        "image": "tableSyncImgage.png",
+        "position": "Desenvolvedor Full-Stake",
+        "duration": "+6 meses",
+        "status": "Finalizado",
+        "description": "Fui responsável pelo desenvolvimento da MultiPage da Suporte de Domingo, um projeto voltado para a divulgação da empresa com forte cunho social. Durante esse período, também iniciei projetos white label, desenvolvendo sistemas de controle de NF-e e e-commerce para restaurantes. Fui responsável pelo desenvolvimento da MultiPage da Suporte de Domingo, um projeto voltado para a divulgação da empresa com forte cunho social. Durante esse período, também iniciei projetos white label, desenvolvendo sistemas de controle de NF-e e e-commerce para restaurantes.cunho social. Durante esse período, também iniciei projetos white label, desenvolvendo sistemas de controle de NF-e e e-commerce para restaurantes.",
+        "tags": ["Redux", "Styled Componenets", "Tailwind", "Next Js"]
+      }
+    }
   }
 }
