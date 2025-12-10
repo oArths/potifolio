@@ -5,11 +5,11 @@ export default function Home() {
         <div className="absolute top-48 aspect-square h-[25vw] min-h-[150px] w-[25vw] min-w-[150px] animate-morph rounded-full bg-blue-1000 p-0 opacity-40 blur-3xl lg:-left-48" />
         <div className="absolute -right-1 aspect-square h-[25vw] min-h-[200px] w-[25vw] min-w-[200px] animate-morphExtreme rounded-full bg-rose-200 opacity-40 blur-3xl lg:-top-28" />
         <span className="relative top-[10vh] ml-32 mt-40 flex w-auto flex-col items-start justify-center">
-          <h1 className="mb-6 select-none font-Draper text-2xl text-50 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="mb-6 select-none font-Draper text-4xl text-50 sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
             I'M Arthur
           </h1>
-          <p className="relative ml-10 h-auto w-full whitespace-nowrap text-2xl font-bold sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl">
-            <span className="text-transparent absolute inset-0 w-full select-none whitespace-nowrap font-Draper  tracking-wider text-[#fff0] [-webkit-text-stroke-color:#e7e7e7be] [-webkit-text-stroke-width:0.2px] text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl">
+          <p className="relative lg:ml-10 h-auto w-full  text-4xl font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+            <span className="text-transparent absolute inset-0 w-full select-none  font-Draper text-4xl tracking-wider text-[#fff0] [-webkit-text-stroke-color:#e7e7e7be] [-webkit-text-stroke-width:0.2px] md:text-3xl lg:text-5xl xl:text-6xl">
               full stack developer
             </span>
           </p>

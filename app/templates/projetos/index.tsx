@@ -20,7 +20,7 @@ export default function Projetos() {
   return (
     <section className="mt-[30dvh] flex h-full w-full flex-col items-center justify-center overflow-hidden py-10">
       <div className="flex h-full w-[90%] flex-col items-start justify-start gap-10">
-        <h2 className="font-Draper text-4xl tracking-[1.57rem] text-50">
+        <h2 className="font-Draper text-3xl tracking-[1.57rem] text-50">
           Projetos
         </h2>
         <article className="relative mt-24 flex h-[90vh] flex-col items-start justify-center text-50">

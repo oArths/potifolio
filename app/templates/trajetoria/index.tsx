@@ -4,7 +4,7 @@ export default function Trajetoria() {
   return (
     <section className="flex h-full min-h-screen w-full flex-col items-center justify-center overflow-hidden">
       <div className="flex h-full w-[90%] flex-col items-start justify-start">
-        <h2 className="font-Draper text-4xl tracking-[1.57rem] text-50">
+        <h2 className="font-Draper text-3xl tracking-[1.57rem] text-50">
           Trajetoria
         </h2>
         <div className="relative right-0 mt-24 flex h-full w-full flex-row">
