@@ -4,7 +4,15 @@
     "role": "Desenvolvedor Full-Stack",
     "institution": "Senai Suíço-Brasileira",
     "duration": "6 meses",
+    "name": "Table Sync",
+    "image": "SDD.png",
     "status": "Finalizado",
+    "tags": ["React", "Figma", "Redux", "TypeScript"],
+    "links": {
+      "repo": "https://lucide.dev/icons/badge-check",
+      "figma": "https://lucide.dev/icons/badge-check",
+      "demo": "https://lucide.dev/icons/badge-check"
+    },
     "date": "12 Jun 2024"
   },
   {
@@ -12,7 +20,15 @@
     "role": "Desenvolvedor Full-Stack",
     "institution": "Senai Suíço-Brasileira",
     "duration": "6 meses",
+    "name": "Table Sync",
+    "image": "favicon.svg",
     "status": "Finalizado",
+    "tags": ["React", "Figma", "Redux", "TypeScript"],
+    "links": {
+      "repo": "https://lucide.dev/icons/badge-check",
+      "figma": "https://lucide.dev/icons/badge-check",
+      "demo": "https://lucide.dev/icons/badge-check"
+    },
     "date": "12 Jun 2024"
   },
   {
@@ -20,7 +36,15 @@
     "role": "Desenvolvedor Full-Stack",
     "institution": "Senai Suíço-Brasileira",
     "duration": "6 meses",
+    "name": "Table Sync",
+    "image": "SDD.png",
     "status": "Finalizado",
+    "tags": ["React", "Figma", "Redux", "TypeScript"],
+    "links": {
+      "repo": "https://lucide.dev/icons/badge-check",
+      "figma": "https://lucide.dev/icons/badge-check",
+      "demo": "https://lucide.dev/icons/badge-check"
+    },
     "date": "12 Jun 2024"
   }
 ]
