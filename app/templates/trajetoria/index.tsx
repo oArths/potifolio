@@ -7,17 +7,17 @@ export default function Trajetoria() {
         <h2 className="font-Draper text-3xl tracking-[1.57rem] text-50">
           Trajetoria
         </h2>
-        <div className="relative right-0 mt-24 flex h-full w-full flex-row">
-          <div className="relative left-2 flex flex-col items-center justify-between">
+        <div className="relative right-0 mt-24 flex h-full w-full flex-row ">
+          <div className="relative left-2 flex flex-col items-center justify-between w-fit">
             <p className="h-2 w-2 rounded-full bg-50"></p>
             <span className="min-h-[calc(100%-16px)] w-[2px] bg-50"></span>
             <p className="h-2 w-2 rounded-full bg-50"></p>
           </div>
-          <div className="flex flex-col items-start h-auto  gap-10 lg:gap-[130px] w-full">
+          <div className="flex h-auto w-full  flex-col items-start gap-10 lg:gap-[130px]">
             {json &&
               json.map((card, idx) => (
                 <Card
-                key={idx}
+                  key={idx}
                   id={idx}
                   date={card.date}
                   description={card.description}

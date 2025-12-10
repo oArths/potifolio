@@ -19,7 +19,7 @@ export default function Card(data: CardProps) {
         <h3 className="ml-6 text-sm font-extralight tracking-widest text-200 lg:text-base">
           {data.date}
         </h3>
-        <span className="flex flex-row items-center justify-start">
+        <span className="flex flex-row items-center justify-start ">
           <div className="relative flex w-fit flex-col">
             <div className="flex flex-row items-center">
               <p className="h-2 w-2 rounded-full bg-50"></p>
@@ -57,7 +57,7 @@ export default function Card(data: CardProps) {
         </span>
       </div>
 
-      <div className="relative flex h-auto w-fit max-w-[500px] flex-col rounded-3xl bg-950/40 px-10 py-10 backdrop-blur-[100px]">
+      <div className="relative flex h-auto ml-5 md:ml-0 w-fit max-w-[500px] flex-col rounded-3xl bg-950/40 px-10 py-10 backdrop-blur-[100px]">
         <div
           className="pointer-events-none absolute inset-0 rounded-3xl"
           style={{
