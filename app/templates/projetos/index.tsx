@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import { useState } from 'react';
 import DropDown from '@/app/components/dropdown';
 import { handlerColor } from '@/app/utils/colors';
@@ -28,14 +27,12 @@ export default function Projetos() {
 
           <div className="z-20 flex h-auto flex-col items-center gap-4 lg:flex-row">
             <div className="group relative h-full w-full rounded-md bg-900/30">
-              <h3 className="absolute z-20 h-[30%] w-full pl-14 pt-14 text-4xl font-medium">
+              <h3 className="absolute z-20 h-[40%] w-full pl-14 pt-6  md:pt-14 text-2xl md:text-4xl font-medium">
                 <span className="absolute inset-0 bg-gradient-to-b from-950/80 to-950/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
                 <span className="relative z-10 text-50">{item.name}</span>
               </h3>
-              <Image
+              <img
                 src={`/images/${item.image}`}
-                width={1000}
-                height={800}
                 alt="Imagem do projeto"
                 className="h-full w-full object-contain opacity-90 transition duration-300 ease-linear group-hover:opacity-100"
               />

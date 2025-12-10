@@ -23,7 +23,7 @@ export default function Card(data: CardProps) {
           <div className="relative flex w-fit flex-col">
             <div className="flex flex-row items-center">
               <p className="h-2 w-2 rounded-full bg-50"></p>
-              <svg className="h-[10px] w-[60%] lg:w-full" viewBox="0 0 600 10">
+              <svg className="h-[10px] w-[50%] lg:w-full" viewBox="0 0 600 10">
                 <line
                   x1="0"
                   y1="5"
@@ -36,7 +36,7 @@ export default function Card(data: CardProps) {
               </svg>
               <p className="hidden h-2 w-2 rotate-45 bg-50 lg:flex"></p>
             </div>
-            <div className="absolute top-[6px] ml-[60%] flex h-fit flex-col items-center justify-center lg:hidden">
+            <div className="absolute top-[6px] ml-[50%] flex h-fit flex-col items-center justify-center lg:hidden">
               <svg
                 className="flex h-[50px] w-fit lg:hidden"
                 viewBox="0 0 10 100"
