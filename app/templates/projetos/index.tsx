@@ -29,7 +29,7 @@ export default function Projetos() {
             <div className="group relative h-full w-full rounded-md bg-900/30">
               <h3 className="absolute z-20 h-[40%] w-full pl-14 pt-6  md:pt-14 text-2xl md:text-4xl font-medium">
                 <span className="absolute inset-0 bg-gradient-to-b from-950/80 to-950/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
-                <span className="relative z-10 text-50">{item.name}</span>
+                <span className="relative z-10  text-50">{item.name}</span>
               </h3>
               <img
                 src={`/images/${item.image}`}
@@ -38,15 +38,15 @@ export default function Projetos() {
               />
             </div>
             <div className="flex h-fit flex-col gap-2 lg:max-w-[50%]">
-              <div className="flex h-fit w-full flex-col items-start justify-center rounded-md border border-white-200/20 bg-950/40 px-8 py-4 backdrop-blur-md lg:py-9">
+              <div className="flex h-fit w-full flex-col items-start justify-center rounded-md border border-white-200/20 bg-950/40 px-4 md:px-8 py-4 backdrop-blur-md lg:py-9">
                 <nav className="flex w-full items-center justify-between">
                   <div className="flex flex-col items-start justify-center">
-                    <h3 className="text-base lg:text-lg">{item.role}</h3>
+                    <h3 className="text-sm md:text-base lg:text-lg">{item.role}</h3>
                     <div className="flex flex-row items-start justify-center gap-16">
-                      <p className="text-base font-extralight text-200 lg:text-lg">
+                      <p className=" text-sm md:text-base font-extralight text-200 lg:text-lg">
                         {item.duration}
                       </p>
-                      <p className="text-base font-extralight text-200 lg:text-lg">
+                      <p className="text-sm md:text-base font-extralight text-200 lg:text-lg">
                         {item.status}
                       </p>
                     </div>
@@ -67,7 +67,7 @@ export default function Projetos() {
                     {item.tags.map((tag, idx) => (
                       <li
                         key={idx}
-                        className={`py rounded-md px-4 py-1 text-sm  ${handlerColor(idx)} `}
+                        className={`py rounded-md px-2 md:px-4 py-1 text-sm  ${handlerColor(idx)} `}
                       >
                         {tag}
                       </li>
