@@ -17,12 +17,12 @@ export default function DropDown(data: DropDownProps) {
     setDropDown(false);
     window.open(link, '_blank');
   };
-
+// TODO: adicionar div com iset para caso se clique fora do dropdown ele feche usar de ref oq tem no chartool mars
   return (
     <div className="relative">
       <button
         onClick={() => setDropDown(!dropdown)}
-        className="rounded-lg border border-100/40 px-4 py-2 text-sm font-light lg:text-base"
+        className="rounded-lg border border-100/40 px-2 md:px-4 py-2 text-sm font-light lg:text-base"
       >
         Explorar Projeto
       </button>

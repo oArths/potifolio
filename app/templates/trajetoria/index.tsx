@@ -28,7 +28,7 @@ export default function Trajetoria() {
                 />
               ))}
 
-            <div className="absolute left-[75%] top-48 z-[1] aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-blue-1000 p-0 opacity-40 blur-3xl" />
+            <div className="absolute  left-[75%] top-[50%] md:top-48 z-[1] aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-blue-1000 p-0 opacity-40 blur-3xl" />
           </div>
         </div>
       </div>
