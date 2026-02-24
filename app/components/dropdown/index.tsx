@@ -26,38 +26,46 @@ export default function DropDown(data: DropDownProps) {
       >
         Explorar Projeto
       </button>
+
       {dropdown && (
-        <div className="absolute top-12 w-full">
-          <ul className="flex h-fit w-full flex-col items-start justify-start gap-2 rounded-md border-100 bg-925 p-2">
-            {data.DropdownItem.repo.length > 0 && (
-              <li
-                onClick={() => handlerClick(data.DropdownItem.repo)}
-                className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
-              >
-                <I.Github size={22} />
-                Repositorio
-              </li>
-            )}
-            {data.DropdownItem.figma.length > 0 && (
-              <li
-                onClick={() => handlerClick(data.DropdownItem.figma)}
-                className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
-              >
-                <I.Figma size={22} />
-                Prototipo
-              </li>
-            )}
-            {data.DropdownItem.demo.length > 0 && (
-              <li
-                onClick={() => handlerClick(data.DropdownItem.demo)}
-                className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
-              >
-                <I.BadgeCheck size={22} />
-                Demo
-              </li>
-            )}
-          </ul>
-        </div>
+        <>
+          <div
+            className="fixed inset-0 z-20 bg-rose-100"
+            onClick={() => setDropDown(false)}
+          />
+
+          <div className="absolute top-12 w-full z-30">
+            <ul className="flex h-fit w-full flex-col items-start justify-start gap-2 rounded-md border-100 bg-925 p-2">
+              {data.DropdownItem.repo.length > 0 && (
+                <li
+                  onClick={() => handlerClick(data.DropdownItem.repo)}
+                  className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
+                >
+                  <I.Github size={22} />
+                  Repositorio
+                </li>
+              )}
+              {data.DropdownItem.figma.length > 0 && (
+                <li
+                  onClick={() => handlerClick(data.DropdownItem.figma)}
+                  className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
+                >
+                  <I.Figma size={22} />
+                  Prototipo
+                </li>
+              )}
+              {data.DropdownItem.demo.length > 0 && (
+                <li
+                  onClick={() => handlerClick(data.DropdownItem.demo)}
+                  className="flex w-full cursor-pointer flex-row items-start justify-start gap-2 rounded-lg p-2 text-base hover:bg-910"
+                >
+                  <I.BadgeCheck size={22} />
+                  Demo
+                </li>
+              )}
+            </ul>
+          </div>
+        </>
       )}
     </div>
   );
