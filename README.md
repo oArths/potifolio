@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Portfólio Profissional
 
-## Getting Started
+Um portfólio profissional de desenvolvimento web moderno, construído com as tecnologias mais atuais do mercado.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **[Next.js 15](https://nextjs.org)** - Framework React com SSR/SSG
+- **[React 19](https://react.dev)** - Biblioteca UI
+- **[TypeScript](https://www.typescriptlang.org)** - Tipagem estática
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS
+- **[Zustand](https://zustand-demo.vercel.app)** - State management
+- **[Lucide React](https://lucide.dev)** - Ícones SVG
+- **[ESLint](https://eslint.org)** e **[Prettier](https://prettier.io)** - Code quality
+
+## 📁 Estrutura do Projeto
+
+```
+app/
+├── components/        # Componentes reutilizáveis
+│   ├── card/         # Componente de card
+│   └── dropdown/     # Componente dropdown
+├── templates/        # Layouts e templates
+│   ├── header/       # Cabeçalho
+│   ├── home/         # Página inicial
+│   ├── projetos/     # Seção de projetos
+│   ├── skills/       # Seção de habilidades
+│   └── trajetoria/   # Seção de trajetória
+├── locales/          # Internacionalização (PT/EN)
+├── styles/           # Estilos globais
+├── json/             # Dados estáticos
+└── store/            # Estado global (Zustand)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Como Iniciar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pré-requisitos
+- Node.js 18+ instalado
+- npm, yarn, pnpm ou bun
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Instalação e Desenvolvimento
 
-## Learn More
+```bash
+# Instalar dependências
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Executar servidor de desenvolvimento
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Scripts Disponíveis
 
-## Deploy on Vercel
+- `npm run dev` - Iniciar servidor de desenvolvimento
+- `npm run build` - Compilar para produção
+- `npm start` - Iniciar servidor de produção
+- `npm run lint` - Executar ESLint
+- `npm run format` - Formatar código com Prettier
+- `npm run format:check` - Verificar formatação
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌍 Internacionalização
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto suporta múltiplos idiomas através de arquivos JSON localizados em `app/locales/`:
+- **PT** - Português Brasileiro
+- **EN** - Inglês
+
+A troca de idioma é gerenciada pelo `langueStore` utilizando Zustand.
+
+## 📦 Deploy
+
+O projeto está pronto para ser deployado em plataformas como:
+- [Vercel](https://vercel.com) (recomendado)
+- [Netlify](https://netlify.com)
+- Qualquer servidor Node.js
+
+## 📄 Licença
+
+Este projeto é privado.
