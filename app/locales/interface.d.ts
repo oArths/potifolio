@@ -1,9 +1,9 @@
+type TranslationValue = string | string[] | TranslationObject;
+
 export interface TranslationObject {
-  [key: string]: string | TranslationObject;
+  [key: string]: TranslationValue;
 }
 
-export interface Translations {
-  [key: string]: TranslationObject;
-}
+export type Translations = Record<LanguageCode, TranslationObject>;
 
 export type LanguageCode = 'pt' | 'en';

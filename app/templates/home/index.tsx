@@ -6,7 +6,7 @@ export default function Home() {
         <div className="absolute -right-1 aspect-square h-[25vw] min-h-[200px] w-[25vw] min-w-[200px] animate-morphExtreme rounded-full bg-rose-200 opacity-40 blur-3xl -top-10 lg:-top-28" />
         <span className=" flex w-fit flex-col items-start justify-start gap-3  md:gap-10">
           <h1 className="select-none font-Draper text-4xl text-50 md:text-4xl lg:text-5xl xl:text-6xl">
-            I'M Arthur
+            I&apos;M Arthur
           </h1>
           <div className="w-fit flex flex-col items-start md:flex-row gap-3 md:gap-5 md:ml-10">
             <p className="text-transparent w-fit select-none font-Draper text-4xl font-bold text-[#fff0] [-webkit-text-stroke:0.5px_#e7e7e7be] md:text-4xl  lg:text-5xl xl:text-6xl">

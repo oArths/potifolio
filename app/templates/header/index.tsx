@@ -1,20 +1,18 @@
 'use client';
 import * as I from 'lucide-react';
 import Image from 'next/image';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { HeaderIcon } from '@/public/images';
 const Header = () => {
-  let lastScrollTop = 0;
+  const lastScrollTop = useRef(0);
 
   useEffect(() => {
     const header = document.getElementById('header');
     if (!header) return;
     const handleScroll = () => {
-      let scrollTop = window.scrollY || document.documentElement.scrollTop;
-      scrollTop > lastScrollTop
-        ? (header.style.top = '-80px')
-        : (header.style.top = '0');
-      lastScrollTop = scrollTop;
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      header.style.top = scrollTop > lastScrollTop.current ? '-80px' : '0';
+      lastScrollTop.current = scrollTop;
     };
 
     window.addEventListener('scroll', handleScroll);

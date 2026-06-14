@@ -1,14 +1,6 @@
-import './globals.css';
+import './styles/globals.css';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import { Kanit } from 'next/font/google';
-
-const KanitFont = Kanit({
-  weight: ['200', '300', '400', '500', '700', '800', '900'],
-  variable: '--kanit',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 const DraperFont = localFont({
   src: '../public/font/Draper.otf',
@@ -28,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={`${KanitFont.variable} ${DraperFont.variable} `}>
-        {children}
-      </body>
+      <body className={DraperFont.variable}>{children}</body>
     </html>
   );
 }
