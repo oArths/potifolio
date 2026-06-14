@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 import DropDown from '@/app/components/dropdown';
 import { handlerColor } from '@/app/utils/colors';
 import Trajetoria from '@/app/json/trajetoria.json';
@@ -17,7 +18,7 @@ export default function Projetos() {
     if (page > 0) setPage(page - 1);
   };
   return (
-    <section className="mt-[30dvh] flex h-full w-full flex-col items-center justify-center overflow-hidden py-10">
+    <section className="mt-[30dvh] flex h-full w-full flex-col items-center justify-center  py-10">
       <div className="flex h-full w-[90%] flex-col items-start justify-start gap-10">
         <h2 className="font-Draper text-3xl tracking-[1.57rem] text-50">
           Projetos
@@ -25,28 +26,32 @@ export default function Projetos() {
         <article className="relative mt-24 flex h-[90vh] flex-col items-start justify-center text-50">
           <div className="absolute right-[75%] top-48 z-10 aspect-square h-[75vw] w-[75vw] animate-morphBlue rounded-full bg-50 p-0 opacity-40 blur-3xl" />
 
-          <div className="z-20 flex h-auto flex-col items-center gap-4 lg:flex-row">
-            <div className="group relative h-full w-full rounded-md bg-900/30">
-              <h3 className="absolute z-20 h-[40%] w-full pl-14 pt-6  md:pt-14 text-2xl md:text-4xl font-medium">
+          <div className="min-h-1/3 z-20 flex h-auto flex-col items-center gap-4 lg:flex-row">
+            <div className="group relative h-64 w-full rounded-md bg-900/30 lg:h-full">
+              <h3 className="absolute z-20 h-[40%] w-full pl-14 pt-6 text-2xl font-medium md:pt-14 md:text-4xl">
                 <span className="absolute inset-0 bg-gradient-to-b from-950/80 to-950/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
-                <span className="relative z-10  text-50">{item.name}</span>
+                <span className="relative z-10 text-50">{item.name}</span>
               </h3>
-              <img
+              <Image
                 src={`/images/${item.image}`}
                 alt="Imagem do projeto"
-                className="h-full w-full object-contain opacity-90 transition duration-300 ease-linear group-hover:opacity-100"
+                fill
+                sizes="(min-width: 1024px) 50vw, 90vw"
+                className="object-contain opacity-90 transition duration-300 ease-linear group-hover:opacity-100"
               />
             </div>
             <div className="flex h-fit flex-col gap-2 lg:max-w-[50%]">
-              <div className="flex h-fit w-full flex-col items-start justify-center rounded-md border border-white-200/20 bg-950/40 px-4 md:px-8 py-4 backdrop-blur-md lg:py-9">
+              <div className="flex h-fit w-full flex-col items-start justify-center rounded-md border border-white-200/20 bg-950/40 px-4 py-4 backdrop-blur-md md:px-8 lg:py-9">
                 <nav className="flex w-full items-center justify-between">
                   <div className="flex flex-col items-start justify-center">
-                    <h3 className="text-sm md:text-base lg:text-lg">{item.role}</h3>
+                    <h3 className="text-sm md:text-base lg:text-lg">
+                      {item.role}
+                    </h3>
                     <div className="flex flex-row items-start justify-center gap-16">
-                      <p className=" text-sm md:text-base font-extralight text-200 lg:text-lg">
+                      <p className="text-sm font-extralight text-200 md:text-base lg:text-lg">
                         {item.duration}
                       </p>
-                      <p className="text-sm md:text-base font-extralight text-200 lg:text-lg">
+                      <p className="text-sm font-extralight text-200 md:text-base lg:text-lg">
                         {item.status}
                       </p>
                     </div>
@@ -67,7 +72,7 @@ export default function Projetos() {
                     {item.tags.map((tag, idx) => (
                       <li
                         key={idx}
-                        className={`py rounded-md px-2 md:px-4 py-1 text-sm  ${handlerColor(idx)} `}
+                        className={`py rounded-md px-2 py-1 text-sm md:px-4 ${handlerColor(idx)} `}
                       >
                         {tag}
                       </li>

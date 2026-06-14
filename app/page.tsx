@@ -1,6 +1,7 @@
 import Header from './templates/header';
 import Home from './templates/home';
 import Projetos from './templates/projetos';
+import Skills from './templates/skills';
 import Trajetoria from './templates/trajetoria';
 
 export default function Main() {
@@ -10,6 +11,7 @@ export default function Main() {
       <Home />
       <Trajetoria />
       <Projetos />
+      <Skills/>
     </div>
   );
 }

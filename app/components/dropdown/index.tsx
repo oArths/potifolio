@@ -17,24 +17,25 @@ export default function DropDown(data: DropDownProps) {
     setDropDown(false);
     window.open(link, '_blank');
   };
-// TODO: adicionar div com iset para caso se clique fora do dropdown ele feche usar de ref oq tem no chartool mars
+  // TODO: adicionar div com iset para caso se clique fora do dropdown ele feche usar de ref oq tem no chartool mars
   return (
-    <div className="relative">
+    <div className="relative flex items-center justify-center">
       <button
         onClick={() => setDropDown(!dropdown)}
-        className="rounded-lg border border-100/40 px-2 md:px-4 py-2 text-sm font-light lg:text-base"
+        className="rounded-lg border relative border-100/40 px-4 py-2  text-sm font-light md:px-4 lg:text-base"
       >
-        Explorar Projeto
+        <p className="text-sm font-light hidden md:flex">Explorar Projeto</p>
+        <I.EllipsisVertical className='md:hidden' size={22} />
       </button>
 
       {dropdown && (
         <>
           <div
-            className="fixed inset-0 z-20 bg-rose-100"
+            className="bg-transparent fixed inset-0 z-20"
             onClick={() => setDropDown(false)}
           />
 
-          <div className="absolute top-12 w-full z-30">
+          <div className="absolute top-12 z-30  w-fit">
             <ul className="flex h-fit w-full flex-col items-start justify-start gap-2 rounded-md border-100 bg-925 p-2">
               {data.DropdownItem.repo.length > 0 && (
                 <li
