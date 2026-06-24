@@ -39,7 +39,7 @@ export default function Skills() {
   return (
     <section className="mt-[30dvh] flex h-full w-full flex-col items-center justify-center py-10">
       <div className="flex h-full w-[90%] flex-col items-start justify-start gap-10">
-        <h2 className="font-Draper text-3xl tracking-[1.57rem] text-50">
+        <h2 className="font-Draper text-xl md:text-3xl  tracking-[1.57rem] text-50">
           Skills
         </h2>
         <article className="mt-24 flex flex-col items-start justify-center text-50">
